@@ -169,7 +169,7 @@ $(document).ready(function(){
 		"Pork Stir Fry & Potatoes": '<img id="modal-image" src="assets/img/home/pork-stir-fry.jpg" />',
 		"Zucchini Fried Rice": '<img id="modal-image" src="assets/img/home/fried-rice.jpg" />',
 		"Braised Pork Belly": '<img id="modal-image" src="assets/img/home/pork-belly.jpg" />',
-		"Chengdu Style Restaurant": '<img id="modal-image" src="assets/img/out/chengdu/6.jpg" />',
+		"Chengdu Style Restaurant": '<img id="modal-image" src="assets/img/out/Chengdu/6.jpg" />',
 		"Pieology": '<img id="modal-image" src="assets/img/out/pieology.jpg" />',
 		"Cupcakin' Bake Shop": '<img id="modal-image" src="assets/img/out/cupcakes.jpg" />',
 		"Little Gem Belgian Waffles": '<img id="modal-image" src="assets/img/out/waffle.jpg" />',
@@ -217,14 +217,14 @@ $(document).ready(function(){
 	}
 
 	var chengdu = {
-		1: '<img id="modal-image" src="assets/img/out/chengdu/6.jpg" />',
-		2: '<img id="modal-image" src="assets/img/out/chengdu/1.jpg" />',
-		3: '<img id="modal-image" src="assets/img/out/chengdu/2.jpg" />',
-		4: '<img id="modal-image" src="assets/img/out/chengdu/3.jpg" />',
-		5: '<img id="modal-image" src="assets/img/out/chengdu/5.jpg" />',
-		6: '<img id="modal-image" src="assets/img/out/chengdu/4.jpg" />',
-		7: '<img id="modal-image" src="assets/img/out/chengdu/7.jpg" />',
-		8: '<img id="modal-image" src="assets/img/out/chengdu/8.jpg" />'
+		1: '<img id="modal-image" src="assets/img/out/Chengdu/6.jpg" />',
+		2: '<img id="modal-image" src="assets/img/out/Chengdu/1.jpg" />',
+		3: '<img id="modal-image" src="assets/img/out/Chengdu/2.jpg" />',
+		4: '<img id="modal-image" src="assets/img/out/Chengdu/3.jpg" />',
+		5: '<img id="modal-image" src="assets/img/out/Chengdu/5.jpg" />',
+		6: '<img id="modal-image" src="assets/img/out/Chengdu/4.jpg" />',
+		7: '<img id="modal-image" src="assets/img/out/Chengdu/7.jpg" />',
+		8: '<img id="modal-image" src="assets/img/out/Chengdu/8.jpg" />'
 	}
 
 	var joshuya = {

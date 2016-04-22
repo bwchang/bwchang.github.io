@@ -8,7 +8,7 @@ clear: both;
 }
 
 body {
-    font-family: "Dynalight", "Lato";
+    font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif, "Dynalight", "Lato";
     margin: 0px;
     background: #edeae5;
 }
