@@ -1,3 +1,150 @@
 <html>
-	<body>Hosting my first site</body>
+<head>
+<title>A Semester in Meals</title>
+<link href="http://fonts.googleapis.com/css?family=Open+Sans:400,300,700,600" rel="stylesheet" type="text/css">
+<link href='https://fonts.googleapis.com/css?family=Dynalight' rel='stylesheet' type='text/css'>
+<link href='https://fonts.googleapis.com/css?family=Lato' rel='stylesheet' type='text/css'>
+<link rel="stylesheet" type="text/css" href="assets/css/style.css" />
+<script src="https://code.jquery.com/jquery-2.1.4.js"></script>
+<script src="assets/js/waypoints.min.js"></script>
+<script src="assets/js/script.js"></script>
+</head>
+<body>
+	
+	<div id="modal-container">
+		<div id="modal-overlay">
+			<div id="modal-box">
+				<div id="modal-header"></div>
+				<div id="modal-image-container"></div>
+				<div class="arrow" id="arrow-left"><img src="assets/img/arrowleft.png"></div>
+				<div class="arrow" id="arrow-right"><img src="assets/img/arrowright.png"></div>
+				<div id="modal-description"></div>
+			</div>
+		</div>
+	</div>
+
+	<div id="background">
+		<div id="background-overlay">
+			<div id="hero">
+				<div id="heading">A Semester in Meals</div>
+				<div id="subheading"></div>
+			</div>
+		</div>
+	</div>
+
+	<div id="content">
+		<div id="nav">
+			<div class="container">
+				<div id="nav-title">A Semester in Meals</div>
+				<div id="nav-item-container">
+					<div class="nav-item" id="homemade">Homemade</div>
+					<div class="nav-item" id="restaurants">Restaurants</div>
+					<div class="nav-item" id="about">About</div>
+					<div class="clear"></div>
+				</div>
+				<div class="clear"></div>
+			</div>
+		</div>
+
+		<div class="section" id="home">
+			<div class="container">
+				<div class="section-title">Homemade</div>
+				<div class="item-container">
+					<div class="item">
+						<img class="img-circle" src="assets/img/home/brownie.jpg" />
+						<div class="img-overlay"><div class="item-text">Milky Way Brownies</div></div>
+					</div>
+					<div class="item">
+						<img class="img-circle" src="assets/img/home/beef-tofu.jpg" />
+						<div class="img-overlay"><div class="item-text">Beef and Tofu Stew</div></div>
+					</div>
+					<div class="item">
+						<img class="img-circle" src="assets/img/home/veggies.jpg" />
+						<div class="img-overlay"><div class="item-text">Sweet Potato Rice & Vegetables</div></div>
+					</div>
+					<div class="item">
+						<img class="img-circle" src="assets/img/home/noodle.jpg" />
+						<div class="img-overlay"><div class="item-text">Spare Ribs & Turnip Noodle Soup</div></div>
+					</div>
+					<div class="item">
+						<img class="img-circle" src="assets/img/home/curry.jpg" />
+						<div class="img-overlay"><div class="item-text">Red Curry with Chicken</div></div>
+					</div>
+					<div class="item">
+						<img class="img-circle" src="assets/img/home/pork-rib.jpg" />
+						<div class="img-overlay"><div class="item-text">Grilled Pork Ribs</div></div>
+					</div>
+					<div class="item">
+						<img class="img-circle" src="assets/img/home/pork-stir-fry.jpg" />
+						<div class="img-overlay"><div class="item-text">Pork Stir Fry & Potatoes</div></div>
+					</div>
+					<div class="item">
+						<img class="img-circle" src="assets/img/home/fried-rice.jpg" />
+						<div class="img-overlay"><div class="item-text">Zucchini Fried Rice</div></div>
+					</div>
+					<div class="item">
+						<img class="img-circle" src="assets/img/home/pork-belly.jpg" />
+						<div class="img-overlay"><div class="item-text">Braised Pork Belly</div></div>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<div class="section" id="out">
+			<div class="container">
+				<div class="section-title">Restaurants</div>
+				<div class="item-container">
+					<div class="item">
+						<img class="img-circle" src="assets/img/out/chengdu/6.jpg" />
+						<div class="img-overlay"><div class="item-text">Chengdu Style Restaurant</div></div>
+					</div>
+					<div class="item">
+						<img class="img-circle" src="assets/img/out/pieology.jpg" />
+						<div class="img-overlay"><div class="item-text">Pieology</div></div>
+					</div>
+					<div class="item">
+						<img class="img-circle" src="assets/img/out/cupcakes.jpg" />
+						<div class="img-overlay"><div class="item-text">Cupcakin' Bake Shop</div></div>
+					</div>
+					<div class="item">
+						<img class="img-circle" src="assets/img/out/waffle.jpg" />
+						<div class="img-overlay"><div class="item-text">Little Gem Belgian Waffles</div></div>
+					</div>
+					<div class="item">
+						<img class="img-circle" src="assets/img/out/joshu-ya/3.jpg" />
+						<div class="img-overlay"><div class="item-text">Joshu-Ya Brasserie</div></div>
+					</div>
+					<div class="item">
+						<img class="img-circle" src="assets/img/out/urbann/2.jpg" />
+						<div class="img-overlay"><div class="item-text">Urbann Turbann</div></div>
+					</div>
+					<div class="item">
+						<img class="img-circle" src="assets/img/out/tasty-pot/3.jpg" />
+						<div class="img-overlay"><div class="item-text">Tasty Pot</div></div>
+					</div>
+					<div class="item">
+						<img class="img-circle" src="assets/img/out/nom-nom/2.jpg" />
+						<div class="img-overlay"><div class="item-text">Nom Nom</div></div>
+					</div>
+					<div class="item">
+						<img class="img-circle" src="assets/img/out/simply-bowl/2.jpg" />
+						<div class="img-overlay"><div class="item-text">Simply Bowl</div></div>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<div class="section" id="about-section">
+			<div class="container">
+				<div class="section-title">About</div>
+				<div id="about-img"><img src="assets/img/betty.gif"></div>
+				<div id="about-content">
+					<div id="about-text">Hi! I'm Betty, a second-year student at UC Berkeley studying Computer Science and Cognitive Science. College life can be overwhelming, and the days tend to blend into each other as we start measuring the passage of time by deadlines instead of by days of the week. This semester, I've made a point to take pictures of almost everything I eat, as an effort to avoid getting swept up in the whirlwind of midterms and projects. I have always found food to be one of the greatest joys in life. These are some of the things I've eaten this spring; in many ways, these meals have been the heartbeat of my semester. I hope they bring you joy, too.</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	
+</body>
 </html>
